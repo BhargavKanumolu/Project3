@@ -1,0 +1,122 @@
+<html>
+    <head>
+        <title>Registration</title>
+        <style>
+             .container {
+                margin: 0 auto;
+                background: hsl(154, 94%, 37%);
+                box-sizing: border-box;
+             }
+            
+               /* Smartphones (portait and landscape )----------  */
+             
+            @media screen and (min-width: 767px)  {
+                .container {
+                    width: 100%;
+                    padding: 5px 10px;
+                }
+            form{
+                background-color:aqua;
+                padding-top: 50px;
+                padding-left: 50px;
+                padding-right: 60px;
+                padding-bottom: 80px;
+            }
+                        }
+
+            /* tablets , iPads (portait and landscape )----------  */
+             
+         @media screen and (min-width: 768px) and (max-width: 1024px)  {
+               
+            .container {
+                    width: 750px;
+                    padding: 5px 10px;
+                
+                }
+                form{
+                background-color:aqua;
+                padding-top: 50px;
+                padding-left: 50px;
+                padding-right: 60px;
+                padding-bottom: 80px;
+            }
+            }
+
+
+          /* Low resolution Desktops and laptops ----------  */
+             
+          @media screen and (min-width: 1024px)  {
+            .container {
+                    width: 980px;
+                    padding: 5px 15px;
+                
+                }
+                form{
+                background-color:bisque;
+                padding-top: 50px;
+                padding-left: 50px;
+                padding-right: 60px;
+                padding-bottom: 80px;
+            }
+            }
+      
+          /* High  resolution Desktops and laptops ----------  */
+             
+          @media screen and (min-width: 1280px)  {
+            .container {
+                    width: 1200px;
+                    padding: 5px 20px;
+                }
+                form{
+                background-color:yellow;
+                padding-top: 50px;
+                padding-left: 50px;
+                padding-right: 60px;
+                padding-bottom: 80px;
+            }
+            }
+          
+            
+
+            Body{
+                background:rgb(241, 238, 238);
+            }
+          
+        </style>
+      </head>
+    <body>
+        <center><h1>Create a Fan Account</h1></center><br><br>
+        <form align="left" action="login.html">
+            Name: 
+            <br> <input type="text" name="sname"><br>
+            
+            Date of Birth :<br>
+            <input type="date" name="bname"><br>
+            Email ID: <br><input type="email" name="mail"><br>
+            Username: <br><input type="text" name="username"><br><br>
+            Gender: <input type="radio" name="gender" value="male">Male
+            <input type="radio" name="gender" value="Female">Female<br><br>
+            City/Town: <select name="Players"><br>
+                <option value="I">Chennai</option>
+                <option value="II">Bengaluru</option>
+                <option value="III">Hyderabad</option>
+                <option value="IV">Mumbai</option>
+<option value="IV">Gujurat</option>
+
+                </select><br><br>
+            Fav Player:<br>
+            <input type="checkbox" name="c">MS Dhoni<br>
+            <input type="checkbox" name="python">Jadeja<br>
+            <input type="checkbox" name="java">Daryl Mitchell<br>
+<input type="checkbox" name="c">Gaikwad<br>
+<input type="checkbox" name="c">Rachin Ravindra<br>
+
+            Address:<br><textarea name="mytest" cols="35" row="45">
+            </textarea><br>
+            Create Password: <br><input type="password" name="pass"><br>
+            Confirm Password: <br><input type="password" name="pass"><br><br>
+            <input type="submit">
+            <button type="reset">Reset</button> 
+        </form>
+    </body>
+</html>
